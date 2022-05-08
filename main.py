@@ -1,9 +1,5 @@
 import pygame
-import math
 import random
-import tkinter
-from tkinter import *
-import os
 
 # Variables
 FPS = 60 #Int
