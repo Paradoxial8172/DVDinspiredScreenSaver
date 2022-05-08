@@ -11,8 +11,8 @@ pygame.init()
 pygame.font.init()
 screenWidth = 1000 #Int
 screenHeight = 600 #Int
-playerX = 0 #random.randint(0,936) #Int
-playerY = 0 #random.randint(0,536) #Int
+playerX = random.randint(0,936) #Int
+playerY = random.randint(0,536) #Int
 window = pygame.display.set_mode((screenWidth,screenHeight))
 playerVelocityX = 5 #Int
 playerVelocityY = 5 #Int
